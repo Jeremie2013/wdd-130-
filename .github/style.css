@@ -1,0 +1,113 @@
+h1{
+    text-transform: uppercase;
+    color: rgb(10, 9, 8)
+    tomato
+}
+h2{
+    text-transform: uppercase;
+    color: black;
+    text-align: left;
+}
+p{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+body {
+    margin: 110;
+    padding: 50;
+}
+p, a{}
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #17373bde;
+    color: #e4e01c;
+    text-transform: uppercase;
+    padding: 5%;
+    display: under;
+    justify-content: center;
+    align-items: left;
+}
+
+#logo_link {
+    text-decoration: none;
+}
+
+#logo_link img {
+    width: 100px;
+    height: 60;
+}
+
+nav {
+    margin-top: 100px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 100px;
+}
+
+#hero {
+    background-image: url('image/hero.png');
+    background-size: cover;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: under;
+    align-items: center;
+}
+
+#hero-msg {
+    background-color: rgba(10, 8, 8, 0.6);
+    padding: 20px;
+    border-radius: 40px;
+    margin: 20px;
+    text-align: left;
+    color: #adab14;
+}
+
+.home-title {
+    font-size: 100px;
+}
+
+.button-box {
+    margin-top: left 100;
+}
+
+.book, .icon {
+    width: 100px;
+    height: 100px;
+    margin: center;
+}
+
+.card-img {
+    max-width: 100%;
+}
+
+.home-grid {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 20;
+}
+
+.home-grid section {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.home-grid h2 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* Style the hero image */
+#hero-img {
+    max-width: 100%;
+    height: auto;
+}
